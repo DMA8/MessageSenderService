@@ -1,0 +1,11 @@
+sender_config:
+  app_name: "mailsender"
+
+kafka_config:
+  url: "91.185.95.87:9094"
+  mail_topic: "team31-mailTopic"
+  partition: "0"
+
+limiter_config:
+  rps: 333
+  buff_size: 333
